@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Contact Us Form
 
-## Getting Started
+**Description**: This project is a simple and responsive "Contact Us" form built with Next.js. The form is designed to collect user information and inquiries efficiently. It includes fields for the user's first name, last name, email address, query type (general or support), and a message. Additionally, it features a consent checkbox to comply with contact permissions.
 
-First, run the development server:
+**Technologies Used**:
+- Next.js
+- Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Features
+- **Responsive Design**: Adapts to different screen sizes using flexbox.
+- **Form Validation**: Ensures all required fields are filled before submission.
+- **Accessibility**: Proper label associations for input fields.
+- **User-Friendly Interface**: Clean and intuitive design.
+
+### Installation
+
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/cindykandie/contact-form-frontend-mentor.git
+    ```
+2. **Navigate to the project directory**:
+    ```sh
+    contact-form-frontend-mentor
+    ```
+3. **Install dependencies**:
+    ```sh
+    npm install
+    ```
+4. **Run the development server**:
+    ```sh
+    npm run dev
+    ```
+
+    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+### Project Structure
+```
+/contact-us-form
+├── public
+│   └── (assets if any)
+├── src
+│   └── pages
+│       └── index.js
+│   └── styles
+│       └── styles.css
+├── .gitignore
+├── package.json
+├── README.md
+└── next.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Contributing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Contributions are welcome! Here are ways to get involved:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Fork the Project**: Click the 'Fork' button at the top right of this page to create a copy of this repository under your GitHub account.
 
-## Learn More
+2. **Create a New Branch**:
+    ```sh
+    git checkout -b feature/AmazingFeature
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Commit Your Changes**:
+    ```sh
+    git commit -m 'Add some AmazingFeature'
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Push to the Branch**:
+    ```sh
+    git push origin feature/AmazingFeature
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Open a Pull Request**: Navigate to the repository on GitHub and click the 'New pull request' button.
 
-## Deploy on Vercel
+### License
+Distributed under the MIT License. See `LICENSE` for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Contact
+- **Author**: Cindy
+- **Email**: cindy@example.com
+- **Project Link**: [https://github.com/yourusername/contact-us-form](https://github.com/yourusername/contact-us-form)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Acknowledgements
+- [Next.js Documentation](https://nextjs.org/docs)
+- [HTML forms](https://www.w3schools.com/html/html_form_elements.asp)
+- [ HSL to Hex code](https://htmlcolors.com/hsl-to-hex)
+
+Feel free to reach out for any questions or suggestions. Happy coding!
